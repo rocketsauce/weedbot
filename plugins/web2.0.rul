@@ -1,0 +1,14 @@
+root = {"web 2.0, now with" adj+ @{noun ["!" {"" ["in the cloud!" "on rails!"]}]}}
+adj = ["holistic" "user-centric" "integrated" "networked" "social" "mobile"
+	"personalized" "micro" "viral" "critical" "load-balanced" "free" 
+	"libre" "fair trade" "organic" "fresh" "beautiful" "synergistic"
+	"distributed" "data-centric" "reactionary" "revolutionary"
+	]
+noun =	["bookmarking" "tagging" "Cory Doctorow" "word clouds" "tag clouds"
+	"memes" "flash" "tweeting" "tumbling" "blogging"
+	"Facebooking" "custom merch" "shopping" "communication"
+	"AJAX" "JSON" "captchas" "enterprises" "blogospheres" "geotagging"
+	"linkbaiting" "link farming" "podcasting" "RSS" "trackbacks" "mashups"
+	"wikis" "aggregation" "blogrolls" "monetization" "buyouts" 
+	"twitterspheres" "Larry Ellison" "privacy violations"
+	"privacy policies" "DMCA violations" "trackbacks" "embarrassing photos"]

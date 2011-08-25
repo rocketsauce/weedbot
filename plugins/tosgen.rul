@@ -1,0 +1,33 @@
+root = {"Whilst" whilst firstchar firstaction secondaction thirdaction}
+inv = {"investigating a" ["doomed world" "strangely familiar world" "time warp" "space warp" "form of energy never previously encountered" "distress signal"]}
+whilst = ["boldly going where no man has gone before" "ferrying bigwigs about" "on leave" inv "carrying out a vital mission of mercy" "taking a shortcut through the Neutral Zone"]
+firstchar = ["Captain Kirk" "Spock" "Bones" "Scotty" "the crew of the USS Enterprise" "the guest star"]
+firstaction = [encounters {["falls in love" "gets brainwashed" "is put on trial" "starts aging rapidly" "apparently dies" "falls ill" "gets lost"] "when the Enterprise" encounters}]
+encounters = {"encounters" [{apparent 0.5:{"- as well as" aswellas}} aswellas]}
+apparent = {"an apparent" [{["conman" "monster"] "which is in fact" ["an android" "a shapechanger" "not what it seems"]} {"duplicate of" [dupleft dupright]} {["madhouse" "paradise"] "which is in fact not what it seems"}]}
+dupleft = {["Kirk" "Spock" "an old friend" "a human being" "Abraham Lincoln"] "which is in fact" ["an android" "a shapechanger" "not what it seems"]}
+dupright = {["some historical period on Earth" "the Enterprise"] "which is in fact not what it seems"}
+aswellas =
+	{[
+		{[{"something" ["shapeless" "huge"]} "a horde of little things"] "which tries to ingest" ["them" "everything"]}
+		{[{"a godlike" ["computer" "being"]} "a gang of superbeings"] "which pisses them about" ["as a test" "for fun"]}
+		{["a Klingon" "a Romulan"] "captain with a" ["grudge" "new secret weapon"] "who ambushes them"}]
+
+		"and" ["drains the dilithium crystals" "hijacks the Enterprise" "picks off the security guards" "isolates the landing party" "depletes the shields to 5%"]
+	}
+		
+
+secondaction = {"but their opponent turns out to be" [vulnerable {["mad" "all alone" "well meaning" "misled" "just a kid"] "and" 0.5:vulnerable}]}
+vulnerable = {"vulnerable to" ["gibberish" "a show of emotion" "a cunning bluff" "a good talking to" "violence"] "and"}
+
+thirdaction = {["dies," "leaves," so]
+	"which means everything turns out okay,"
+	["and the planet is saved in the nick of time." "give or take a few personal tragedies." "and everybody forgets it ever happened." "though a few regulations have been broken."]
+	"Then, finally"
+	["Kirk" "Spock" "Bones" "Scotty" "Sulu" "Checkov"]
+	"says something"
+	["smug" "witty" "worthy" "snappy"]
+	"and they leave at warp factor" @{number "."}
+	}
+number = ["1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11"]
+so = {"so" ["the guest star dies a heroic death," {"Kirk delivers a" ["speech," "right hook,"]} "Bones develops a vaccine," {"Spock does" ["something seemingly illogical," "a mindmeld,"]} "Scotty jury-rigs the engines,"]}

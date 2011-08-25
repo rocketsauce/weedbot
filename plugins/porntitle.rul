@@ -1,0 +1,15 @@
+root = [firstStory secondStory thirdStory]
+firstStory = {adj people action1 action2 0.33:{"From" locs} 0.75:numberStory 0.5:nameStory}
+secondStory = {0.25:"Totally" adj people action2 "Some" action1 0.75:numberStory nameStory}
+thirdStory = {0.5:"Public" action1 action2 "in" locs 0.25:numberStory}
+nameStory = {"starring" fn ln 0.25:{"and" fn ln}}
+decNumber = ["2" "3" "4" "5" "6" "7" "8" "9"]
+romanTokens = ["II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X"]
+numberStory = [decNumber romanTokens]
+people = ["Sluts" "Bitches" "Whores" "Cunts" "Teens" "Trannies" "Grandmas" "Skanks" "Schoolgirls" "Mongoloids" "Clowns" "Grannies" "Dudes" "Cock Lovers" "Cuties" "Fatties" "First-Timers" "Cock Junkies" "Penis Addicts" "Cock Addicts" "Dads" "Asstronauts" "Cum Drinkers" "Anal Felchers" "Gamers" "Addicts" "Boyz"]
+adj = ["Sexy" "Horny" "Cute" "Innocent" "Slutty" "Tight" "Young" "Barely Legal" "Asian" "German" "Japanese" "Thai" "Gay" "Violent" "Hardcore" "Medieval" "Amazonian" "Frumpy" "Chunky" "Queer" "Chiseled"]
+locs = ["Outer Space" "Tokyo" "Akihabara" "Berlin" "Paris" "Seattle"]
+fn = ["Angelica" "Brittany" "Champagne" "Chesty" "Flower" "Lexy" "Lucy" "Mya" "Regan" "Roxy" "Sasha" "Casey" "Jake" "Rocky"]
+ln = ["Belle" "Bing" "Case" "Cox" "Grey" "Millenium" "O'Neil" "Rammer" "Sexx" "Shield" "Sin" "Storm" "Shields" "Suxx" "Rocket"]
+action1 = ["Cunt" "Face" "Ass" "Pussy" "Mouth" "Asshole" "Butt" "Gash" "Eye" "Nose" "Dick" "Cock" "Penis" "Bunghole" "Pooper" "Gloryhole" "Planet"]
+action2 = ["Fucking" "Ramming" "Licking" "Destroying" "Slapping" "Splitting" "Raping" "Eating" "Pooping" "Stroking" "Obliterating" "Teasing" "Rubbing" "Sucking" "Fingering" "Sodomizing"]

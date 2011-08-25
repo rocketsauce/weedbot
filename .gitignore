@@ -1,0 +1,17 @@
+*.swp
+*.pyc
+*.orig
+persist
+config
+pep8.py
+.project
+.pydevproject
+parser.out
+parsetab.*
+plugins/spambot.py
+plugins/q.py
+plugins/jerkomatic.py
+plugins/troper.py
+plugins/spamquote.py
+plugins/q2.py
+
