@@ -5,6 +5,7 @@ cs = unicode("( .__.) . o O ( cum )", encoding="utf-8")
 ms = unicode("( ﾟ ヮﾟ)　ＭＩＴＯＮ ＧＡ ＳＵＫＩ！！！！", encoding="utf-8")
 cp = unicode("( ・ω・) . o O ( crap ass )", encoding="utf-8")
 ft = unicode("ヾ(´□｀* )ノ ftw ヾ(@゜∇゜@)ノ ftw o(≧∇≦o) ftw (´∇ﾉ｀*)ノ", encoding="utf-8")
+ap = unicode("( ･ิз･ิ) apple basically makes the best computers.. heh", encoding="utf=8")
 
 @hook.nonick
 @hook.regex(*("cum", re.I))
@@ -42,6 +43,12 @@ def ftw(inp):
 def owns(inp):
     ons = unicode("owns "*random.randint(1, 3) + "OWNS "*random.randint(1, 3) + "o-(' 'Q)")
     return ons
+
+@hook.nonick
+@hook.regex(*("apple", re.I))
+@hook.randreply(0.5)
+def apple(inp):
+	return ap
 
 @hook.nonick
 @hook.regex(*("weedbot", re.I))
